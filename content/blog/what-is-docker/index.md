@@ -46,3 +46,8 @@ The heart of any Docker development project is the Docker engine, i.e. an open s
 The components that make up the basic architecture of this engine are: a daemon with server functions, a programming interface (API) based on REST (Representational State Transfer) and the operating system terminal (Command-Line Interface, CLI) as the user interface (client).
 
 Docker allows you to start, stop or manage software containers directly from the console. With the `docker` command and commands such as `build`, `pull` or `run`, it is possible to communicate with the daemon, allowing both client and server to be on the same system.
+
+#### Sources
+
+- [Docker docs](https://docs.docker.com)
+- [Learn Docker Beginner to Expert](https://medium.com/@kmdkhadeer/docker-get-started-9aa7ee662cea)
