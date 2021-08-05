@@ -4,7 +4,9 @@ date: "2021-08-01T22:40:32.169Z"
 description: We need Docker fist of all. Make sure you have it installed before proceeding
 ---
 
-Technologies Used in this post:
+Docker is a container platform that enables companies to build, share and run any application, from almost any location possible. Almost every company is packaging their applications for faster production workloads, so they can deploy at any time with no extra costs. There are many ways we can build a React application, One way is to dockerise the React application with the **nodeJs** backend and create a docker image so that we can deploy that image.
+
+### Technologies Used in this post:
 
 - **React**: It is a JavaScript library created by Facebook to build User Interfaces. You can find more information at [reactjs.org](https://https://reactjs.org/).
 
@@ -12,8 +14,42 @@ Technologies Used in this post:
 
 - **Nginx**: It is an open source software for web serving, reverse proxy, caching and/or load balancing. It started as a web server deswigned for maximum performance and stability. In addition to its **HTTP** server capabilities, NGINX can also function as a proxy server for email (such as IMAP, POP3 and SMTP) and reverse proxy/ load balancer for HTTP, TCP and UDP servers. Learn more by [clicking here](https://nginx.org/en/docs)
 
-## On deer horse aboard tritely yikes and much
+## Installing Docker
 
+Installing Docker Descktop on a Mac is pretty straight forward. We need to go to [this link](docs.docker.com/docker-for-mac/install/) and download the image for our machine.
+
+In order to check if the installation has been successfull we can run the next commands in the terminal:
+
+```
+docker info
+docker --version
+```
+
+## Creating a web app by using React
+
+1. Our first step is to install by using yarn, our package `create-react-app`
+
+```
+yarn add create-react-app
+```
+
+2. Next thing we need to do is by using the command `create-react-app`, we can create our React app. We call this app 'test-docker'
+
+```
+npx create-react-app test-docker
+```
+
+3. And cd into our directory so that we can execute our app
+
+```
+cd test-docker && yarn start
+```
+
+## Steps to follow
+
+As we have seen above, Docker makes it easy for developers to package, ship and run any application as a self-contained, portable, lightweight container that can run virtually any application.Docker containers are also easy to deploy in the cloud. We are going to create
+
+<!--
 The Big Oxmox advised her not to do so, because there were thousands of bad
 Commas, wild Question Marks and devious Semikoli, but the Little Blind Text
 didn’t listen. She packed her seven versalia, put her initial into the belt and
@@ -108,4 +144,4 @@ would be the word "and" and the Little Blind Text should turn around and return
 to its own, safe country. But nothing the copy said could convince her and so it
 didn’t take long until a few insidious Copy Writers ambushed her, made her drunk
 with Longe and Parole and dragged her into their agency, where they abused her
-for their projects again and again.
+for their projects again and again. -->

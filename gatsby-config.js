@@ -8,7 +8,7 @@ module.exports = {
     description: `Please never mind the minimalistic design!`,
     siteUrl: `https://gatsbystarterblogsource.gatsbyjs.io/`,
     social: {
-      twitter: `carlosDiaz`,
+      twitter: `zaizi`,
     },
   },
   plugins: [
