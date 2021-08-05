@@ -47,7 +47,11 @@ The components that make up the basic architecture of this engine are: a daemon 
 
 Docker allows you to start, stop or manage software containers directly from the console. With the `docker` command and commands such as `build`, `pull` or `run`, it is possible to communicate with the daemon, allowing both client and server to be on the same system.
 
+As we can see, this tool presents itself as a particularly attractive platform for administrators who want to manage complex applications with many containers on different operating systems in parallel. To orchestrate this, Docker offers various functions, including the Docker Swarm and Compose tools.
+
 #### Sources
 
 - [Docker docs](https://docs.docker.com)
 - [Learn Docker Beginner to Expert](https://medium.com/@kmdkhadeer/docker-get-started-9aa7ee662cea)
+  <!-- https://www.ionos.es/digitalguide/servidores/configuracion/tutorial-docker-instalacion-y-primeros-pasos/
+   -->

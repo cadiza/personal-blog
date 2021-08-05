@@ -49,6 +49,8 @@ cd test-docker && yarn start
 
 As we have seen above, Docker makes it easy for developers to package, ship and run any application as a self-contained, portable, lightweight container that can run virtually any application.Docker containers are also easy to deploy in the cloud. We are going to create
 
+<!-- https://www.ionos.es/digitalguide/servidores/configuracion/tutorial-docker-instalacion-y-primeros-pasos/ -->
+
 <!--
 The Big Oxmox advised her not to do so, because there were thousands of bad
 Commas, wild Question Marks and devious Semikoli, but the Little Blind Text
