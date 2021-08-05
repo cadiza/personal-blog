@@ -1,13 +1,16 @@
 ---
-title: New Beginnings
-date: "2015-05-28T22:40:32.169Z"
-description: This is a custom description for SEO and Open Graph purposes, rather than the default generated excerpt. Simply add a description field to the frontmatter.
+title: Dockerize me up!
+date: "2021-08-01T22:40:32.169Z"
+description: We need Docker fist of all. Make sure you have it installed before proceeding
 ---
 
-Far far away, behind the word mountains, far from the countries Vokalia and
-Consonantia, there live the blind texts. Separated they live in Bookmarksgrove
-right at the coast of the Semantics, a large language ocean. A small river named
-Duden flows by their place and supplies it with the necessary regelialia.
+Technologies Used in this post:
+
+- **React**: It is a JavaScript library created by Facebook to build User Interfaces. You can find more information at [reactjs.org](https://https://reactjs.org/).
+
+- **Docker**: It is a tool designe4d to facilitate the creation, implementation and execution of apps through the use of containers. In this case it will allow us to package a React application with all its libraries and dependencies and send it as a package. This will ensure that it will work on any machine that has docker installed. You can read more about it [clicking here](https://www.docs.docker.com).
+
+- **Nginx**: It is an open source software for web serving, reverse proxy, caching and/or load balancing. It started as a web server deswigned for maximum performance and stability. In addition to its **HTTP** server capabilities, NGINX can also function as a proxy server for email (such as IMAP, POP3 and SMTP) and reverse proxy/ load balancer for HTTP, TCP and UDP servers. Learn more by [clicking here](https://nginx.org/en/docs)
 
 ## On deer horse aboard tritely yikes and much
 
