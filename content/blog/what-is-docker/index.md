@@ -27,11 +27,13 @@ The key feature of container-based virtualisation is that applications with diff
 
 ## Portable and highly scalable
 
-**Docker** also allows cross-platform applications to be installed on different infrastructures without the need to adapt them to the specific configuration of the hardware and software systems of each host system. It uses _images_ as portable copies of the container software. These contain the applications together with all libraries, binary and configuration files required during the execution of the encapsulated application processes. For this reason, they require hardly anything from the host system, which makes it easy to move a container-application between different operating systems without any adjustments.
+**Docker** also allows cross-platform applications to be installed on different infrastructures without the need to adapt them to the specific configuration of the hardware and software systems of each host system. It uses _images_ as portable copies of the container software.
+
+These contain the applications together with all libraries, binary and configuration files required during the execution of the encapsulated application processes. For this reason, they require hardly anything from the host system, which makes it easy to move a container-application between different operating systems without any adjustments.
 
 ## Images & Engine
 
-As stated before, Docker is made up of two main components, Docker images & Docker engine.
+As stated before, Docker is made up of two main components, [Docker images](https://docs.docker.com/engine/reference/commandline/image/) & [Docker engine](https://docs.docker.com/engine/).
 
 ### Images
 
