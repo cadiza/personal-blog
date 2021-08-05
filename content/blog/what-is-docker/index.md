@@ -39,4 +39,8 @@ As stated before, Docker is made up of two main components, [Docker images](http
 
 Docker containers are based on images, which are read-only templates with all the instructions needed by the engine to create a container. As a portable copy of a container, a Docker image is described in the form of a text file (Dockerfile). A container can be considered as a running process of an image.
 
-<!-- ### Engine -->
+### Engine
+
+The heart of any Docker development project is the Docker engine, i.e. an open source client-server application available to all users in the current version on all established platforms.
+
+The components that make up the basic architecture of this engine are: a daemon with server functions, a programming interface (API) based on REST (Representational State Transfer) and the operating system terminal (Command-Line Interface, CLI) as the user interface (client).
